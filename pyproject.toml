@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+pythonpath = ['.']
+testpaths = ['tests']
+
+[tool.ruff]
+line-length = 280
+[tool.ruff.lint]
+select = ['E', 'F', 'W', 'B']
+ignore = ['E701', 'E702', 'E401', 'B008', 'E731']
